@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+.ball {
+    position: absolute;
+}
+#buttons {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: rgba(255,255,255,.3);
+    border-radius: 4px;
+    z-index: 10000;
+}
+#buttons button {
+    padding: 3px 10px;
+}
